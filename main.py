@@ -17,7 +17,7 @@ def main():
 def print_report(book_path, num_words, chars_sorted_list):
     print(f"Analyzing book found at {book_path}...")
     print("----------- Word Count ----------")
-    print(f"Found {num_words} total words")
+    print(f"total words : {num_words} ")
     print("--------- Character Count -------")
     for item in chars_sorted_list:
         if not item['char'].isalpha():

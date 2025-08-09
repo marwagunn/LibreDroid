@@ -1,7 +1,6 @@
 def get_words(filepath):
     with open(filepath) as f:
-        file_contents = f.read()
-    return file_contents
+     return f.read()
 
 def get_words_count(text):
     words = text.split()
